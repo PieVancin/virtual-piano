@@ -1,19 +1,26 @@
 document.addEventListener("keydown", function(event){
     if (event.code === 'KeyA') {
-        console.log(`The 'A' key is pressed.`)
+        let a = new Audio("audio/A.mp3");
+        a.play();
     }  else if (event.code === 'KeyS') {
-        console.log(`The 'S' key is pressed`)
+        let s = new Audio("audio/S.mp3");
+        s.play();
     } else if (event.code === 'KeyD') {
-        console.log(`The 'D' key is pressed.`)
+        let d = new Audio("audio/D.mp3");
+        d.play();
     } else if (event.code === 'KeyF') {
-        console.log(`The 'F' key is pressed.`)
+        let f = new Audio("audio/F.mp3");
+        f.play();
     } else if (event.code === 'KeyG') {
-        console.log(`The 'G' key is pressed.`)
+        let g = new Audio("audio/G.mp3");
+        g.play();
     } else if (event.code === 'KeyH') {
-        console.log(`The 'H' key is pressed.`)
+        let h = new Audio("audio/H.mp3");
+        h.play();
     } else if (event.code === 'KeyJ') {
-        console.log(`The 'J' key is pressed.`)
+        let j = new Audio("audio/J.mp3");
+        j.play();
     } else {
-        console.log(`Invalid key.`)
+        console.log(`Invalid key.`);
     }
 })
