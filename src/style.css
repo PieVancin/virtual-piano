@@ -11,7 +11,7 @@ body {
     padding: 10rem;
 }
 
-kbd {
+.white-keys kbd {
     border-style: solid;
     border-width: 3px;
     background-color: white;
@@ -19,5 +19,22 @@ kbd {
     align-content: center;
     text-align: center;
     width: 100px;
-    height: 350px;
+    height: 300px;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    margin: 3px;
+}
+
+.l {
+    margin-right: 5px;
 }
